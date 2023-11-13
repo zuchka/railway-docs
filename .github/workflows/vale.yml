@@ -10,3 +10,4 @@ jobs:
       - uses: errata-ai/vale-action@reviewdog
         with:
           files: ./src/docs
+          reporter: github-pr-check
