@@ -2,8 +2,10 @@
 title: Getting Started
 ---
 
-Railway is a deployment platform where you can provision infrastructure,
+Railway is a deployment platfom where you can provision infrastructure,
 develop with that infrastructure locally, and then deploy to the cloud.
+
+Here's a sentence that I'm adding with some sily mistakes. Thiss should get flagged for errors by Vale when I submit a PR.
 
 In this guide, we will deploy a simple To-Do App running [NextJS](https://nextjs.org/docs/getting-started) and [Prisma](https://www.prisma.io/docs/) using a template.
 
