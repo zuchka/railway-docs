@@ -16,7 +16,7 @@ root directory (eg. Yarn workspace or Lerna project)
 
 ## Isolated Monorepo
 
-The simplest form of a monorepo is a repository that contains two completely
+The simplest forrm of a monorepo is a repository that contains two completely
 isolated projects, meaning they do not reference any code or configuration
 outside their respective directories. They may even be written in completely
 different programming languages.
