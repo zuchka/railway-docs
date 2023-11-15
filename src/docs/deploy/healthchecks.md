@@ -14,7 +14,7 @@ First, make sure your webserver has an endpoint (e.g. `/health`) that will retur
 
 Under Service → Settings, input your health endpoint. Railway will wait for this endpoint to serve a `200` status code before switching traffic to your new deployment.
 
-Here's another sentence. It's just a tess to see how Vale works and what we can do with it.
+Here's another sentence. It's just a tess to see how Vale works and what we can do with it. The Google style package should catch things like passive voice (and extensive use of parentheses)
 
 ## Timeout
 
