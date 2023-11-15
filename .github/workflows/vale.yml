@@ -1,4 +1,4 @@
-name: reviewdog
+name: lint PR using Vale
 on: [pull_request]
 
 jobs:
