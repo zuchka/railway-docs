@@ -1,12 +1,12 @@
-[setup]
+[phases.setup]
 packages = ["nodejs_21", "yarn-1_x", "openssl", "promtail"]
 
-[install]
+[phases.install]
 command = "yarn install --frozen-lockfile"
 
-[build]
+[phases.build]
 command = "yarn run build"
 files = ["promtail.yaml"]
 
-[start]
+[phases.start]
 command = "yarn run start && promtail -config.file=promtail.yaml"
